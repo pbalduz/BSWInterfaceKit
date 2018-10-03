@@ -132,7 +132,6 @@ public class CollectionViewDataSource<Cell:ViewModelReusable & UICollectionViewC
             for: indexPath
         )
         supplementaryViewSupport.configureHeader(supplementaryView)
-        supplementaryView.isHidden = (self.data.count == 0)
         return supplementaryView
     }
     
